@@ -1,0 +1,58 @@
+a{
+    cursor:pointer;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.img-carrito{
+    width:200px;
+    padding:20px;
+}
+
+.modal-content{
+    background-color: #E3D8D6;
+}
+
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+
+#footer {
+  color: white;
+  font-size: 14px;
+  background: black;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+  color: white;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #4DB6AC;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #383838;
+  color: #fff;
+  text-decoration: none;
+}
